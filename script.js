@@ -1,3 +1,3 @@
 window.onload = function() {
-  document.querySelector("body").className += 'playing';
+  document.querySelector('body').className += 'playing';
 };
