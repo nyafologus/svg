@@ -1,14 +1,13 @@
-
 .paw {
   transition: transform 1s ease-out;
 }
 
 .ball {
- transition: opacity 2s 2s, transform 6s 0.4s;
+  transition: opacity 2s 2s, transform 6s 0.4s;
 }
 
 .playing .paw {
- transform: translateX(90px);
+  transform: translateX(90px);
 }
 
 .playing .ball {
@@ -16,17 +15,36 @@
   transform: translateX(660px);
 }
 
-
 .paw {
-  position: absolute; top: 0; left:40px;
+  position: absolute;
+  top: 0;
+  left: 40px;
 }
 
 .ball {
-  background: linear-gradient(to top, #b92c7c, #bf337a, #c43a78, #c94176, #ce4875, #d25176, #d55a78, #d8637a, #dc7080, #df7c87, #e2888f, #e59497);
+  background: linear-gradient(
+    to top,
+    #b92c7c,
+    #bf337a,
+    #c43a78,
+    #c94176,
+    #ce4875,
+    #d25176,
+    #d55a78,
+    #d8637a,
+    #dc7080,
+    #df7c87,
+    #e2888f,
+    #e59497
+  );
   border-radius: 50%;
-  position: absolute; top: 200px; left: 160px;
-  width: 100px; height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 160px;
+  width: 100px;
+  height: 100px;
   opacity: 1;
 }
-
-body { background: rosybrown;}
+body {
+  background: rosybrown;
+}
